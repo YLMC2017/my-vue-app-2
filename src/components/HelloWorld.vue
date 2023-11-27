@@ -13,8 +13,6 @@
   <p class="read-the-docs">Click on the Farm and Vue logos to learn more</p>
 </template>
 
-<style scoped>
-.read-the-docs {
-  color: #888;
-}
+<style lang="scss" scoped>
+/* build error */
 </style>
