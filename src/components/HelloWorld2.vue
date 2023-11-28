@@ -1,30 +1,12 @@
-<script setup lang="ts">
-import { ref } from "vue";
-
-const count = ref(0);
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div class="card">
-    <button class="text-lg bg-blue" type="button" @click="count++">
-      count is {{ count }}
-    </button>
-    <p>
-      Edit
-      <code>components/HelloWorld.vue</code> to test HMR
-    </p>
-  </div>
-
-  <p>
-    Install
-    <a href="https://github.com/vuejs/language-tools" target="_blank">Volar</a>
-    in your IDE for a better DX
-  </p>
-  <p class="read-the-docs">Click on the Farm and Vue logos to learn more</p>
+  <div class="bg h-0 h-20px h-full h-0px h-800px w-300px min-h-200px">123</div>
+  <img src="@/assets/logo.png" alt="" />
 </template>
 
 <style scoped>
-.read-the-docs {
-  color: #888;
+.bg {
+  background-image: url("../assets/logo.png");
 }
 </style>

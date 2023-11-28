@@ -23,8 +23,9 @@ export default defineConfig({
     },
     external: ["uno.css"],
     output: {
-      // publicPath: '/fi-saas/',
-      // assetsFilename: 'assets/[resourceName].[hash].[ext]', // [] 里面的是 Farm 支持的全部占位符
+      publicPath: "/test/",
+      filename: "static/[ext]/[resourceName].[hash].[ext]",
+      assetsFilename: "static/[ext]/[resourceName].[hash].[ext]",
     },
   },
   plugins: [
