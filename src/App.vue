@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import HelloWorld2 from "./components/HelloWorld2.vue";
+import { Comp1 } from "./components/test1";
 </script>
 
 <template>
-  <HelloWorld2></HelloWorld2>
+  <Comp1></Comp1>
 </template>
 
 <style lang="scss" scoped></style>
