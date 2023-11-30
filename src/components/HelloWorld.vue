@@ -1,15 +1,13 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="card">
-    <router-view></router-view>
-  </div>
-  <p>
-    Install
-    <a href="https://github.com/vuejs/language-tools" target="_blank">Volar</a>
-    in your IDE for a better DX
-  </p>
-  <p class="read-the-docs">Click on the Farm and Vue logos to learn more</p>
+  <div class="bg h-200px w-200px"></div>
+  Pic:
+  <img class="h-200px w-200px border-1" src="../assets/logo.png" alt="" />
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.bg {
+  background-image: url("../assets/logo.png");
+}
+</style>

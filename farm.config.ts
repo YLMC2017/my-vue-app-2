@@ -16,6 +16,7 @@ export default defineConfig({
     open: true,
   },
   compilation: {
+    sourcemap: false,
     resolve: {
       alias: {
         "@": path.join(process.cwd(), "src"),

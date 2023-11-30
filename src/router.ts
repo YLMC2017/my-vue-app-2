@@ -1,8 +1,14 @@
 import { createRouter, createWebHistory } from "vue-router";
+import HelloWorldVue from "./components/HelloWorld.vue";
 
 const router = createRouter({
   history: createWebHistory("/test/"),
-  routes: [],
+  routes: [
+    {
+      path: "/",
+      component: HelloWorldVue,
+    },
+  ],
   scrollBehavior: () => ({ top: 0 }),
 });
 
